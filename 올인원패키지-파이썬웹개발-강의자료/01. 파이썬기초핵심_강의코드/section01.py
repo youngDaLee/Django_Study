@@ -3,3 +3,5 @@
 
 #기본 출력
 print('Hello Python!')
+print('Hello Hello')
+
