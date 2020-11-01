@@ -1,0 +1,280 @@
+/* 공통 속성 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  min-width: 1060px;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: Roboto, Avenir, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* CALL TO ACTION */
+.cta {
+  color: white;
+  font-weight: 400;
+  display: block;
+  border-radius: 8px;
+  background: #44b78b;
+}
+.cta:hover {
+  background: #51be95;
+}
+
+/* HEADER */
+.header {
+  background: #0c4b33;
+  height: 72px;
+  padding: 15px 0 4px;
+}
+.container,
+.container-float {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+.container-float::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.logo {
+  margin: 0;
+  padding-left: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav {
+  text-align: right;
+}
+.list {
+  margin: 0;
+  font-size: 0;
+}
+.list-item {
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.list-item > a {
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.list-item > a:hover {
+  color: #c9f0dd;
+}
+
+/* MAIN */
+/* HERO SECTION */
+.hero-section {
+  padding: 50px 0;
+  text-align: center;
+  border-bottom: 1px solid #cfe3dc;
+}
+.intro-desc {
+  margin: 40px auto 50px;
+  width: 700px;
+  font-weight: 300;
+  font-size: 3.6rem;
+  line-height: 1.3;
+}
+.hero-cta {
+  width: 300px;
+  margin: 0 auto 60px;
+  padding: 20px 50px;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  float: left;
+  width: 70%;
+  padding-right: 20px;
+}
+.main-title {
+  font-weight: 400;
+  margin: 40px 0 20px 0;
+  font-size: 3.2rem;
+  letter-spacing: -1px;
+}
+.main-desc {
+  margin: 0 0 20px 0;
+}
+.mailing-layout {
+  padding-top: 20px;
+}
+.mailing-layout::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.mailing {
+  float: left;
+  width: 48%;
+}
+.mailing:first-child {
+  margin-right: 4%;
+}
+.mailing-title {
+  margin: 0 0 20px 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.mailing-title > a,
+.mailing-desc > a {
+  color: #20aa76;
+}
+.mailing-title > a:hover,
+.mailing-desc > a:hover {
+  color: #25c488;
+}
+.mailing-desc {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+.mailing-form {
+  margin: 10px 0 30px;
+  position: relative;
+}
+.mailing-form > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+}
+input[type="email"] {
+  width: 100%;
+  border: 1px solid #cfe3dc;
+  border-radius: 4px;
+  height: 5rem;
+  padding: 6px 80px 8px 10px;
+}
+.mailing-form-btn {
+  position: absolute;
+  top: 30%;
+  right: 1rem;
+  border: 0;
+  color: #44b78b;
+  background: transparent;
+  cursor: pointer;
+}
+.mailing-form-btn:hover {
+  color: #0c4b33;
+}
+
+/* SIDE CONTENT */
+.side-content {
+  float: right;
+  width: 30%;
+  margin: 0;
+  padding: 0 0 30px 20px;
+  border-left: 1px solid #cfe3dc;
+}
+.side-content a:hover {
+  color: #25c488;
+}
+.cta.side-cta:hover {
+  color: white;
+}
+.container-side-cta {
+  text-align: center;
+}
+.side-cta {
+  width: 330px;
+  padding: 16px 24px;
+  margin: 40px auto 0;
+}
+.side-cta em {
+  font-style: normal;
+  color: #c9f0dd;
+}
+.more {
+  display: block;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #20aa76;
+}
+.more::after {
+  content: " >";
+}
+.infos {
+  margin-bottom: 40px;
+}
+.infos-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid #cfe3dc;
+  margin: 3.5rem 0 0 0;
+  padding-bottom: 1rem;
+}
+.news-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.news-title > a,
+.community-title > a {
+  color: #20aa76;
+}
+.news-article {
+  padding: 20px 0;
+}
+.news-desc {
+  font-size: 1.5rem;
+}
+.news-meta {
+  margin: 0;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #859d94;
+}
+.news-meta > span {
+  font-weight: 700;
+}
+.list-communities {
+  padding: 20px 0;
+  margin: 0;
+}
+.community-title {
+  font-size: 1.4rem;
+}
+.community-title:nth-child(n + 2) {
+  margin-top: 14px;
+}
+.community-desc {
+  margin: 10px 0 0 0;
+  font-size: 1.4rem;
+  color: #859d94;
+}
+
+/* FOOTER */
+.footer {
+  background: #0c4b33;
+  padding: 10px 0 30px;
+}
+.footer a {
+  color: inherit;
+}
+.copyright {
+  font-size: 1.2rem;
+  color: #2b8c67;
+}
+.copyright a {
+  text-decoration: underline;
+}
