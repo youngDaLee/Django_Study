@@ -1,0 +1,15 @@
+공식 설치 방법
+pip install scrapy
+https://docs.scrapy.org/en/latest/intro/install.html 
+
+윈도우 Scrapy 설치 에러시
+https://visualstudio.microsoft.com/ko/downloads/
+
+셋업 툴 업그레이드 -> 공통
+pip install --upgrade setuptools
+
+Win32 에러 발생 시 -> 윈도우 10 
+pip install pypiwin32
+
+pip upgrade -> 공통
+python -m pip install --upgrade pip
