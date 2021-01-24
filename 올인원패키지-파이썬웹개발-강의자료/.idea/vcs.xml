@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/02. python-lecture-web-and-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/06. 장고프로젝트_2/fastgram_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/07. 장고프로젝트_3/project/test_db" vcs="Git" />
+  </component>
+</project>

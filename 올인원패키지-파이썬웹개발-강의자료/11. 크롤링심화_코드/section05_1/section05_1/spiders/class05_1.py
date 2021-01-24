@@ -7,8 +7,8 @@ import re
 # 사이트 요구에 맞는 환경 설정 세팅(중요)
 class NewsSpider(CrawlSpider):
     name = 'test11'
-    allowed_domains = ['media.daum.net']
-    start_urls = ['https://media.daum.net/breakingnews/digital']
+    allowed_domains = ['news.daum.net']
+    start_urls = ['https://news.daum.net/breakingnews/']
 
     # 링크 크롤링 규칙(정규표현식 사용 추천)
     rules = [

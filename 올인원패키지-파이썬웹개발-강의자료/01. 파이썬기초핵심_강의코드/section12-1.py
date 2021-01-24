@@ -18,7 +18,7 @@ print('sqlite3.sqlite_version', sqlite3.sqlite_version)
 
 # DB생성 & Autocommit
 # 본인 DB 파일 경로
-conn = sqlite3.connect('본인이 원하는 경로/database.db', isolation_level=None)
+conn = sqlite3.connect('D:\database.db', isolation_level=None)
 
 # DB생성(메모리)
 # conn = sqlite3.connect(":memory:")

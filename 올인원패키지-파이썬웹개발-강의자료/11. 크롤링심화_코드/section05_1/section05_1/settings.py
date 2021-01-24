@@ -26,7 +26,7 @@ COOKIES_ENABLED = True
 
 # Referer 삽입
 DEFAULT_REQUEST_HEADERS = {
-    'Referer': 'https://media.daum.net',
+    'Referer': 'https://news.daum.net/breakingnews/',
 }
 
 # 재시도 횟수
