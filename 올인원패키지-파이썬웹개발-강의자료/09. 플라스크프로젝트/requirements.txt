@@ -1,4 +1,0 @@
-flask_sqlalchemy
-requests
-flask
-flask_wtf
